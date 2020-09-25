@@ -1,0 +1,17 @@
+{
+    "project_name": "project_name",
+    "github_repo_group": "pcdshub",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "default_prefix": "SIM:",
+    "author_name": "SLAC National Accelerator Laboratory",
+    "email": "",
+    "folder_name": "{{ cookiecutter.repo_name.replace('-', '_') }}",
+    "import_name": "{{ cookiecutter.folder_name }}",
+    "description": "{{ cookiecutter.project_name }}",
+    "license": ["SLAC", "BNL", "MIT", "BSD-3"],
+    "auto_git_setup": ["no","yes"],
+    "git_remote_name": "origin",
+    "auto_doctr_setup": ["no","yes"],
+    "use_x11_on_travis": ["no","yes"],
+    "year": "2020"
+}
