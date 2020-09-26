@@ -1,5 +1,5 @@
 ========================
-PCDS Python Cookiecutter
+caproto IOC Cookiecutter
 ========================
 
 .. image:: https://travis-ci.org/pcdshub/cookiecutter-caproto-ioc.svg?branch=master
