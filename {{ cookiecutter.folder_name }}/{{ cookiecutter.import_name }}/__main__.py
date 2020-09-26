@@ -2,9 +2,10 @@ import textwrap
 
 import caproto.server
 
-from .{{cookiecutter.import_name}} import (
-    :, def, main, {{cookiecutter.import_name.capitalize }})
+from .{{cookiecutter.import_name}} import {{cookiecutter.import_name.capitalize }}
 
+
+def main():
     ioc_options, run_options = caproto.server.ioc_arg_parser(
         default_prefix='{{ cookiecutter.default_prefix }}',
         desc=textwrap.dedent({{cookiecutter.import_name.capitalize()}}.__doc__)
