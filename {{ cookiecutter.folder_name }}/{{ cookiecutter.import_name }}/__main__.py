@@ -2,7 +2,7 @@ import textwrap
 
 import caproto.server
 
-from .{{cookiecutter.import_name}} import {{cookiecutter.import_name.capitalize }}
+from .{{cookiecutter.import_name}} import {{cookiecutter.import_name.capitalize() }}
 
 
 def main():

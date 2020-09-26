@@ -17,13 +17,13 @@ repos:
         exclude: '^(.*/conda-recipe/meta.yaml|{{ cookiecutter.folder_name }}/.travis.yml)$'
     -   id: debug-statements
 
--   repo: https://gitlab.com/pycqa/flake8.git
-    rev: 3.8.3
-    hooks:
-    -   id: flake8
+# -   repo: https://gitlab.com/pycqa/flake8.git
+#     rev: 3.8.3
+#     hooks:
+#     -   id: flake8
 
--   repo: https://github.com/timothycrosley/isort
-    rev: 5.5.2
-    hooks:
-    -   id: isort
-        exclude: '^(}}/*.py)$'
+# -   repo: https://github.com/timothycrosley/isort
+#     rev: 5.5.2
+#     hooks:
+#     -   id: isort
+#         exclude: '^(}}/*.py)$'
