@@ -44,7 +44,7 @@ setup(
     url='https://github.com/{{ cookiecutter.github_repo_group }}/{{ cookiecutter.repo_name }}',  # noqa
     entry_points={
         'console_scripts': [
-            # '{{ cookiecutter.repo_name }}={{ cookiecutter.import_name }}.__main__:main',  # noqa
+            '{{ cookiecutter.repo_name }}={{ cookiecutter.import_name }}.__main__:main',  # noqa
             ],
         },
     include_package_data=True,

@@ -9,6 +9,8 @@ import sphinx_rtd_theme  # noqa: F401
 module_path = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(module_path))
 
+# Make sure we can import it:
+import {{ cookiecutter.import_name }}  # noqa # isort: skip
 
 # -- Project information -----------------------------------------------------
 project = '{{ cookiecutter.project_name }}'

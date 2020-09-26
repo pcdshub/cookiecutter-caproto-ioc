@@ -1,2 +1,1 @@
 caproto[standard]
-versioneer
