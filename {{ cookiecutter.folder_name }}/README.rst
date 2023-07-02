@@ -2,8 +2,8 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-.. image:: https://img.shields.io/travis/{{ cookiecutter.github_repo_group }}/{{ cookiecutter.repo_name }}.svg
-        :target: https://travis-ci.org/{{ cookiecutter.github_repo_group }}/{{ cookiecutter.repo_name }}
+.. image:: https://img.shields.io/travis/{{ cookiecutter.gitlab_repo_group }}/{{ cookiecutter.repo_name }}.svg
+        :target: https://travis-ci.org/{{ cookiecutter.gitlab_repo_group }}/{{ cookiecutter.repo_name }}
 
 .. image:: https://img.shields.io/pypi/v/{{ cookiecutter.repo_name }}.svg
         :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}
@@ -15,7 +15,7 @@ Documentation
 -------------
 
 Sphinx-generated documentation for this project can be found here:
-https://{{ cookiecutter.github_repo_group }}.github.io/{{ cookiecutter.repo_name}}/
+https://{{ cookiecutter.gitlab_repo_group }}.github.io/{{ cookiecutter.repo_name}}/
 
 Requirements
 ------------
@@ -27,7 +27,7 @@ Installation
 
 ..
 
-    pip install git+https://github.com/{{ cookiecutter.github_repo_group }}/{{ cookiecutter.repo_name }}
+    pip install git+https://github.com/{{ cookiecutter.gitlab_repo_group }}/{{ cookiecutter.repo_name }}
 
 
 Running the Tests

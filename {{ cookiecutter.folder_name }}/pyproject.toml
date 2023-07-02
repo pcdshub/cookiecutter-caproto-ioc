@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ cookiecutter.project_name }}"
+version = "0.0.0"
+authors = [
+  { name="{{ cookiecutter.author_name }}", email="{{ cookiecutter.email }}" },
+]
+description = "{{ cookiecutter.description }}"
+readme = "README.rst"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware",
+]
+keywords = ["caproto", "controls"]
+dependencies = ["caproto", "caproto-apps"]
+
+[project.optional-dependencies]
+dev = ["black", "pytest", "pytest-asyncio"]
+
+[project.urls]
+Homepage = "https://github.com/{{ cookiecutter.gitlab_repo_group }}/{{ cookiecutter.repo_name }}"

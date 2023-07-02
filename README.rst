@@ -31,7 +31,7 @@ Zero to IOC
   # Use the cookiecutter
   $ cookiecutter https://github.com/pcdshub/cookiecutter-caproto-ioc
   project_name [project_name]:
-  github_repo_group [pcdshub]:
+  gitlab_repo_group [pcdshub]:
   repo_name [project_name]:
   default_prefix [SIM:]:
   author_name [SLAC National Accelerator Laboratory]:
@@ -45,7 +45,7 @@ Zero to IOC
   3 - MIT
   4 - BSD-3
   Choose from 1, 2, 3, 4 [1]:
-  Select auto_git_setup:
+  Select auto_gitlab_setup:
   1 - no
   2 - yes
   Choose from 1, 2 [1]:
