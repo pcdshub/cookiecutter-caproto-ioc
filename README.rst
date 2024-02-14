@@ -2,12 +2,9 @@
 caproto IOC Cookiecutter
 ========================
 
-.. image:: https://travis-ci.org/pcdshub/cookiecutter-caproto-ioc.svg?branch=master
-    :target: https://travis-ci.org/pcdshub/cookiecutter-caproto-ioc
-
 Requirements for the Template
 -----------------------------
-- Python >= 3.5
+- Python >= 3.10
 - `Cookiecutter Python package <http://cookiecutter.readthedocs.org/en/latest/installation.html>`_ >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
 
 ::
@@ -20,7 +17,7 @@ Starting a New Project
 
 ::
 
-  $ cookiecutter https://github.com/pcdshub/cookiecutter-caproto-ioc
+  $ cookiecutter https://github.com/spc-group/cookiecutter-caproto-ioc
 
 
 Zero to IOC
@@ -29,9 +26,9 @@ Zero to IOC
 .. code-block:: sh
 
   # Use the cookiecutter
-  $ cookiecutter https://github.com/pcdshub/cookiecutter-caproto-ioc
+  $ cookiecutter https://github.com/spc-group/cookiecutter-caproto-ioc
   project_name [project_name]:
-  gitlab_repo_group [pcdshub]:
+  gitlab_repo_group [25ID]:
   repo_name [project_name]:
   default_prefix [SIM:]:
   author_name [SLAC National Accelerator Laboratory]:
