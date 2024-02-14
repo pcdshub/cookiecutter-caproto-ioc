@@ -1,0 +1,7 @@
+[Unit]
+Description={{ cookiecutter.project_name }} IOC
+Wants=network.target
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash -il -c 'mamba activate {{ cookiecutter.conda_environment }} && start_{{ cookiecutter.import_name }} --list-pvs'

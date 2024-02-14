@@ -26,3 +26,6 @@ dev = ["black", "pytest", "pytest-asyncio"]
 
 [project.urls]
 Homepage = "https://github.com/{{ cookiecutter.gitlab_repo_group }}/{{ cookiecutter.repo_name }}"
+
+[project.scripts]
+start_{{ cookiecutter.import_name }} = "{{ cookiecutter.import_name }}.__main__:main"
